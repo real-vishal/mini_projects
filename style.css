@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.main:hover{
+    transition-duration: 1.3s;
+box-shadow: rgba(46, 120, 240, 0.4) -5px 5px, rgba(46, 69, 240, 0.3) -10px 10px, rgba(46, 107, 240, 0.2) -15px 15px, rgba(46, 124, 240, 0.1) -20px 20px, rgba(46, 107, 240, 0.05) -25px 25px;}
+
+body{
+    height:500px;
+      background: linear-gradient(to top,#ff1900 , rgb(255, 0, 255)),
+                    linear-gradient(to right, #00bfff,rgb(17, 255, 0));
+      
+    background-blend-mode: screen;
+}
+
+.main{
+    margin: 2rem;    
+    height:340px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(202, 238, 255);
+    border-radius: 17px 17px 0px 0px ;
+}
+
+.banner{
+    border-radius: 17px 17px 0px 0px ;
+    background-color:#2382ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:120px;
+    width:300px;
+}
+.pfp {
+    background-image: url("/photo_2025-08-16_16-49-27.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 62%;
+    height: 100px;
+    width:100px;
+    border-radius:50%;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.details span{
+    margin:4px 0 0px 0;
+    color:#000000;
+    font-weight: 500;
+}
+.icon{
+    margin:8px;
+    width:1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    
+}
+.icn{
+    margin:0 5px 0 5px;
+    width:1.3rem;
+    height:1.3rem;
+}
+
+.buttons button{
+    border: none;
+    background-color: #48a4f9;
+    color:#ffffff;
+    padding:11px;
+    border-radius:20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.lcs{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 15px 10px 10px 10px;
+}
+
+.lcs div{
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap:3px;
+    margin:0 8px 0 8px;    
+}
